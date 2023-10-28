@@ -8,3 +8,12 @@ This repository contains the code that I create in my deliberate practice sessio
 3. Object Oriented Programming in Python
 4. Github actions
 5. Docker
+
+## Latest Updates:
+1. ML Model Deployment using Flask.
+
+To check the model, please use the following command.
+
+```python
+python DeploymentWeb/app.py
+```

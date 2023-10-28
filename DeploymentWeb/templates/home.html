@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prediction using Flask</title>
+</head>
+
+<body>
+    <h1>
+        <div style="text-align:center">
+            <font color="blue">Prediction Form Regression</font>
+        </div>
+    </h1>
+    <br>
+    <h2>
+        <div style="text-align: center;">Enter the value</div>
+    </h2>
+    <div class="container">
+        <div class="row">
+            <form method="POST" action="/predict">
+                <div class="form-group" style="text-align:center">
+                    <label for="YearsExperience">Experince</label>
+                    <input type="text" name="YearsExperience">
+                </div>
+                <br>
+                <div style="text-align: center;">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
