@@ -17,3 +17,11 @@ To check the model, please use the following command.
 ```python
 python DeploymentWeb/app.py
 ```
+
+1. ML Model Deployment using Streamlit.
+
+To check the model, please use the following command.
+
+```python
+python -m streamlit run DeploymentStreamlit\app.py
+```
