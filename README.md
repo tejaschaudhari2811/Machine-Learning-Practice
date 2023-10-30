@@ -25,3 +25,18 @@ To check the model, please use the following command.
 ```python
 python -m streamlit run DeploymentStreamlit\app.py
 ```
+
+3. ML Model Deployment using Docker
+
+First, change the directory to "docker_app".
+Run the following commands. 
+
+```python
+docker build -t ml_app_docker . 
+```
+
+Once the container is up and running, run following command,
+
+```python
+docker container run -p 5000:5000 ml_app_docker    
+```
